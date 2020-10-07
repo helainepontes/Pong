@@ -16,41 +16,109 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="46T-Uh-YNY">
-                                <rect key="frame" x="173" y="221" width="69" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="2 players"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="46T-Uh-YNY">
+                                <rect key="frame" x="64" y="269" width="286" height="64"/>
+                                <color key="backgroundColor" red="0.11724821891191706" green="0.11724821891191706" blue="0.11724821891191706" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="tTX-IH-PLc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="2 players">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="Player2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p5J-yI-uvV"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N2e-ft-pSd">
-                                <rect key="frame" x="173" y="340" width="69" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Easy"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N2e-ft-pSd">
+                                <rect key="frame" x="64" y="397" width="286" height="64"/>
+                                <color key="backgroundColor" red="0.11724821891191706" green="0.11724821891191706" blue="0.11724821891191706" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="55h-Y4-hwM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Easy">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="Easy:" destination="BYZ-38-t0r" eventType="touchUpInside" id="L2C-It-kKI"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qji-Ji-6zZ">
-                                <rect key="frame" x="173" y="393" width="69" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Medium"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qji-Ji-6zZ">
+                                <rect key="frame" x="64" y="485" width="286" height="64"/>
+                                <color key="backgroundColor" red="0.11724821891191706" green="0.11724821891191706" blue="0.11724821891191706" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="9dt-Gs-v9J"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Medium">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="Medium:" destination="BYZ-38-t0r" eventType="touchUpInside" id="y0H-dF-9Ae"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9FP-Ao-HMd">
-                                <rect key="frame" x="173" y="467" width="69" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Hard"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9FP-Ao-HMd">
+                                <rect key="frame" x="64" y="573" width="286" height="64"/>
+                                <color key="backgroundColor" red="0.11724821891191706" green="0.11724821891191706" blue="0.11724821891191706" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="dFS-Mp-ZfC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Hard">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="Hard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9W0-AM-nOs"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DDV-iG-U2a">
+                                <rect key="frame" x="80" y="68" width="80" height="16"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="5e0-4e-fm9"/>
+                                    <constraint firstAttribute="height" constant="16" id="OPd-3f-K3l"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rd9-SD-jaf">
+                                <rect key="frame" x="254" y="822" width="80" height="16"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="TOQ-cO-YCO"/>
+                                    <constraint firstAttribute="height" constant="16" id="Xx4-pd-Irx"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9op-zg-C2f">
+                                <rect key="frame" x="124" y="164" width="16" height="16"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="16" id="AFz-Ha-jlv"/>
+                                    <constraint firstAttribute="height" constant="16" id="WZQ-if-a7o"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="DDV-iG-U2a" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="80" id="0QY-0F-Zpd"/>
+                            <constraint firstItem="9op-zg-C2f" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="124" id="1et-29-cZR"/>
+                            <constraint firstItem="9FP-Ao-HMd" firstAttribute="top" secondItem="qji-Ji-6zZ" secondAttribute="bottom" constant="24" id="80A-bQ-Via"/>
+                            <constraint firstItem="9FP-Ao-HMd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="64" id="99i-gS-56o"/>
+                            <constraint firstItem="N2e-ft-pSd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="64" id="CWT-vd-799"/>
+                            <constraint firstItem="46T-Uh-YNY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="64" id="K1m-Vi-1Rs"/>
+                            <constraint firstItem="9op-zg-C2f" firstAttribute="top" secondItem="DDV-iG-U2a" secondAttribute="bottom" constant="80" id="L9o-QV-XZQ"/>
+                            <constraint firstItem="Rd9-SD-jaf" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-24" id="PId-ZC-bd3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Rd9-SD-jaf" secondAttribute="trailing" constant="80" id="Qdp-1K-wAA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="N2e-ft-pSd" secondAttribute="trailing" constant="64" id="X2S-sO-2Po"/>
+                            <constraint firstItem="qji-Ji-6zZ" firstAttribute="top" secondItem="N2e-ft-pSd" secondAttribute="bottom" constant="24" id="bY6-Ma-nGa"/>
+                            <constraint firstItem="N2e-ft-pSd" firstAttribute="top" secondItem="46T-Uh-YNY" secondAttribute="bottom" constant="64" id="cHS-NE-JN5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qji-Ji-6zZ" secondAttribute="trailing" constant="64" id="ipA-65-wXg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9FP-Ao-HMd" secondAttribute="trailing" constant="64" id="ry8-Dd-Isa"/>
+                            <constraint firstItem="qji-Ji-6zZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="64" id="s1Z-Q6-rXZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="46T-Uh-YNY" secondAttribute="trailing" constant="64" id="w1W-xZ-19R"/>
+                            <constraint firstItem="DDV-iG-U2a" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="24" id="ww7-JZ-Xmi"/>
+                            <constraint firstItem="qji-Ji-6zZ" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="64" id="xTp-Qq-hEq"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="sPf-a1-tW9"/>
                 </viewController>
@@ -78,10 +146,9 @@
         <!--Navigation Controller-->
         <scene sceneID="dYQ-wo-1k7">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="heJ-j3-eWE" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="heJ-j3-eWE" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="bF5-n0-XTg">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
