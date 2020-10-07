@@ -16,6 +16,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9op-zg-C2f">
+                                <rect key="frame" x="124" y="164" width="16" height="16"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="16" id="AFz-Ha-jlv"/>
+                                    <constraint firstAttribute="height" constant="16" id="WZQ-if-a7o"/>
+                                </constraints>
+                            </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="46T-Uh-YNY">
                                 <rect key="frame" x="64" y="269" width="286" height="64"/>
                                 <color key="backgroundColor" red="0.11724821891191706" green="0.11724821891191706" blue="0.11724821891191706" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -86,14 +94,6 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="80" id="TOQ-cO-YCO"/>
                                     <constraint firstAttribute="height" constant="16" id="Xx4-pd-Irx"/>
-                                </constraints>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9op-zg-C2f">
-                                <rect key="frame" x="124" y="164" width="16" height="16"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="16" id="AFz-Ha-jlv"/>
-                                    <constraint firstAttribute="height" constant="16" id="WZQ-if-a7o"/>
                                 </constraints>
                             </view>
                         </subviews>
